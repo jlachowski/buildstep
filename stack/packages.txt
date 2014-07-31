@@ -36,11 +36,11 @@ openjdk-6-jre-headless
 openssh-client
 openssh-server
 postgresql
-postgresql-server-dev-9.1
+postgresql-server-dev-9.3
 python-dev
 ruby1.9.1-dev
-rubygems
 socat
 sqlite3
+supervisor
 telnet
 zlib1g-dev
