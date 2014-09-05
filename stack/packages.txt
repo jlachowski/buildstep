@@ -21,6 +21,7 @@ libmagickcore-dev
 libmagickwand-dev
 libmcrypt-dev
 libmysqlclient-dev
+libncurses5-dev
 libpq-dev
 libsqlite3-dev
 libssl-dev
@@ -39,6 +40,7 @@ postgresql
 postgresql-server-dev-9.3
 python-dev
 ruby1.9.1-dev
+rubygems-integration
 socat
 sqlite3
 supervisor
