@@ -9,6 +9,6 @@ RUN rm -rf /var/lib/apt/lists/*
 RUN apt-get clean
 
 # Set locale
-RUN locale-gen --no-purge pl_PL.UTF-8
+RUN DEBIAN_FRONTEND=noninteractive locale-gen --no-purge pl_PL.UTF-8
 ENV LC_ALL pl_PL.UTF-8
-RUN dpkg-reconfigure locales
+RUN DEBIAN_FRONTEND=noninteractive dpkg-reconfigure locales
