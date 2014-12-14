@@ -40,7 +40,6 @@ openssh-server
 postgresql
 postgresql-server-dev-9.3
 python-dev
-python-scipy
 ruby-dev
 socat
 sqlite3
